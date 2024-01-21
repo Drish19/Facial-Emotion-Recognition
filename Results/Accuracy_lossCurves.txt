@@ -1,0 +1,12 @@
+- Accuracy and loss curves
+- Why? use to understand how well a machine learning model is learning and getting better over time. In basic terms, they help us evaluate the model's performance during training.
+
+- Accuracy Curve? Accuracy curve records how accurate the model’s predictions are on the given data. shows us how good the model is at making correct predictions on the training data as it goes through the training process. Accuracy is measured in percentages and tells us the proportion of instances the model correctly classified out of the total number of instances. So, the accuracy curve gives us a sense of how well the model fits the training data and improves its ability to make accurate predictions.
+
+- Loss Curve? Loss curve records the actual difference between the model’s prediction and the actual true output. gives us insights into how the model's performance improves over time by measuring the error or dissimilarity between its predicted output and the true output. The loss represents how far off the model's predictions are from the actual values. By minimizing the loss, the model aims to make its predictions as close as possible to the true values.  So, the loss curve shows us how the model's error decreases as it learns, which indicates an improvement in its performance.
+
+- A smooth learning curve suggests that the model is learning in a stable and consistent manner.
+- The curve diverge around 50\-100 so to get the optimal results when testing on unseen data, better train the model around that many epochs. [Own]
+
+- Example response: Starting with the Loss Curve, it shows the values of the model's loss over time. Initially, the loss is high and gradually decreases, indicating that the model is improving its performance. A decrease in the loss value suggests that the model is making better predictions, as the loss represents the error or dissimilarity between the predicted output and the true output. Therefore, a lower loss indicates enhanced performance.
+Now let's shift our focus to the Accuracy Curve. It represents the model's accuracy over time. The accuracy curve begins with a value of zero and increases as the training progresses. The accuracy measures the proportion of correctly classified instances out of the total number of instances. So, as the accuracy curve rises, it signifies that the model is making more correct predictions, thereby enhancing its overall performance.
